@@ -1,1 +1,7 @@
-This is a sample file to check pull command.
+This is a sample file created in git hub repo to perform pull command.
+git pull origin master
+
+Now the same file is present in my local repo when refresh the project in eclipse as well as system folder.
+
+Changes is being done in the same file and adding the file to git hub.
+

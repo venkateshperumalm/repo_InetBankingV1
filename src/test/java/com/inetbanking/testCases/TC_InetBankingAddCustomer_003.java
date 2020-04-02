@@ -30,7 +30,7 @@ public class TC_InetBankingAddCustomer_003 extends BaseClass{
 		addCustomer.enterCustomer(RandomStringUtils.randomAlphabetic(7));
 		addCustomer.enterGender("male");
 		addCustomer.enterDob(RandomStringUtils.randomNumeric(1,31), RandomStringUtils.randomNumeric(1,12), "1950");
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 
 		addCustomer.enterAddress("cassie street");
 		addCustomer.enterCity("wuhan");
@@ -42,7 +42,7 @@ public class TC_InetBankingAddCustomer_003 extends BaseClass{
 		addCustomer.clickSubmit();
 
 		logger.info("Submitted a new customer");
-		Thread.sleep(5000);
+		Thread.sleep(8000);
 		
 		boolean resultCust = driver.getPageSource().contains("Customer Registered Successfully!!!");
 		if(resultCust == true){

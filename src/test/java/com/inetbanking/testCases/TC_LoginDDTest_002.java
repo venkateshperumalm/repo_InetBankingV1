@@ -21,7 +21,7 @@ public class TC_LoginDDTest_002 extends BaseClass {
 		bankLogin.setPassword(password);
 		bankLogin.clickSubmit();
 
-		Thread.sleep(3000);
+		Thread.sleep(8000);
 
 		if(isAlertPresent()==true){
 			driver.switchTo().alert().accept();//close alert of invalid credentials login

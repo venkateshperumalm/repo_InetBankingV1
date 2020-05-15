@@ -3,12 +3,11 @@ package com.inetbanking.testCases;
 import java.io.IOException;
 
 import org.openqa.selenium.NoAlertPresentException;
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.inetbanking.pageObjects.InetBankLogin;
+import com.inetbanking.pageObjects.InetBankLoginPO;
 import com.inetbanking.utilities.XLUtils;
 
 public class TC_LoginDDTest_002 extends BaseClass {
@@ -16,7 +15,7 @@ public class TC_LoginDDTest_002 extends BaseClass {
 	@Test(dataProvider="LoginData")
 	public void logInDDTest(String uName, String password) throws InterruptedException
 	{
-		InetBankLogin bankLogin = new InetBankLogin(driver);
+		InetBankLoginPO bankLogin = new InetBankLoginPO(driver);
 		bankLogin.setUserName(uName);
 		bankLogin.setPassword(password);
 		bankLogin.clickSubmit();
@@ -30,6 +29,7 @@ public class TC_LoginDDTest_002 extends BaseClass {
 		}else{
 			Assert.assertTrue(true);
 			bankLogin.clickLogout();//close alert of logout
+			Thread.sleep(3000);
 			driver.switchTo().alert().accept();
 			driver.switchTo().defaultContent();
 		}
@@ -48,15 +48,14 @@ public class TC_LoginDDTest_002 extends BaseClass {
 	@DataProvider(name="LoginData")
 	String [][] readFromXls() throws IOException{
 		String xlsPath="C:/Users/Venkat Yem/workspace/InetBankingv1/src/test/java/com/inetbanking/testData/InetBanking_LoginData.xlsx";
-		XLUtils objUtils = new XLUtils();
-		int rowCount = objUtils.getRowCount(xlsPath, "Sheet1");
-		int columnCount = objUtils.getCellCount(xlsPath, "Sheet1", 1);
+		int rowCount = XLUtils.getRowCount(xlsPath, "Sheet1");
+		int columnCount = XLUtils.getCellCount(xlsPath, "Sheet1", 1);
 
 		String [][] loginData = new String[rowCount][columnCount];
 
 		for (int rowLoop = 1; rowLoop <= rowCount; rowLoop++){
 			for (int columnLoop = 0; columnLoop < columnCount; columnLoop++){
-				loginData[rowLoop-1][columnLoop] = objUtils.getCellData(xlsPath, "Sheet1", rowLoop, columnLoop);
+				loginData[rowLoop-1][columnLoop] = XLUtils.getCellData(xlsPath, "Sheet1", rowLoop, columnLoop);
 			}
 		}
 		return loginData;

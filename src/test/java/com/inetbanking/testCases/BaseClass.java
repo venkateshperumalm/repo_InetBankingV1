@@ -62,6 +62,6 @@ public class BaseClass {
 		File sourceSs= loginScreenshot.getScreenshotAs(OutputType.FILE);
 		File targetSs= new File("C://Users//Venkat Yem//workspace//InetBankingv1//Screenshots//" + testcaseName + "_" + timestampSs + ".png");
 		FileUtils.copyFile(sourceSs, targetSs);
-		System.out.println("Taken screenshot");
+		System.out.println("Screenshot taken");
 	}
 }

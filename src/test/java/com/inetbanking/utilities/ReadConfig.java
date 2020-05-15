@@ -19,32 +19,26 @@ public class ReadConfig {
 	}
 
 	public String getApplicationUrl() {
-		String applicationUrl = objProp.getProperty("baseUrl");
-		return applicationUrl;
+		return objProp.getProperty("baseUrl");
 	}
 
 	public String getUserName() {
-		String userName = objProp.getProperty("userName");
-		return userName;
+		return objProp.getProperty("userName");
 	}
 
 	public String getPassword() {
-		String passw0rd = objProp.getProperty("password");
-		return passw0rd;
+		return objProp.getProperty("password");
 	}
 
 	public String getChromePath() {
-		String chromePath = objProp.getProperty("chromePath");
-		return chromePath;
+		return objProp.getProperty("chromePath");
 	}
 
 	public String getGeckoPath() {
-		String geckoPath = objProp.getProperty("geckoPath");
-		return geckoPath;
+		return objProp.getProperty("geckoPath");
 	}
 
 	public String getExplorerPath() {
-		String explorerPath = objProp.getProperty("explorerPath");
-		return explorerPath;
+		return objProp.getProperty("explorerPath");
 	}
 }

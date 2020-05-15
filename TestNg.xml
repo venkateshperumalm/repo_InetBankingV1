@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="InetBankingv1">
+<suite name="InetBankingv1" verbose="3">
 
 	<listeners>
 		<listener class-name="com.inetbanking.utilities.Reporting" />
@@ -9,9 +9,11 @@
 	<test name="BankingApp Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.inetbanking.testCases.TC_LoginTest_001" />
-			<class name="com.inetbanking.testCases.TC_LoginDDTest_002" />
+			<!-- <class name="com.inetbanking.testCases.TC_LoginTest_001" /> -->
+			<!-- <class name="com.inetbanking.testCases.TC_LoginDDTest_002" /> -->
 			<class name="com.inetbanking.testCases.TC_InetBankingAddCustomer_003" />
+			<!-- <methods><exclude name="testcasename" /></methods> -->
+			<!-- <class name="com.inetbanking.testCases.TC_InetBankingEditCustomer_004" /> -->
 		</classes>
 	</test>
 </suite>

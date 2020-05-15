@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="46.643" tests="6" errors="0" skipped="0" failures="4">
+<testsuite name="TestSuite" time="25.74" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
@@ -26,9 +26,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Venkat Yem\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8505436124591261857.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Venkat Yem\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1057575175453564131.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_241/bin/server;C:/Program Files/Java/jre1.8.0_241/bin;C:/Program Files/Java/jre1.8.0_241/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\Sridhar\Workspace\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\apache-maven-3.6.3\bin\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Users\Venkat Yem\AppData\Local\Microsoft\WindowsApps;;C:\Users\Venkat Yem\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Venkat Yem\AppData\Roaming\npm;D:\Softwares\eclipse-jee-neon-3-win32-x86_64\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_241/bin/server;C:/Program Files/Java/jre1.8.0_241/bin;C:/Program Files/Java/jre1.8.0_241/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\Sridhar\Workspace\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\apache-maven-3.6.3\bin\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\apache-maven-3.6.3\\bin;C:\Users\Venkat Yem\AppData\Local\Microsoft\WindowsApps;;C:\Users\Venkat Yem\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Venkat Yem\AppData\Roaming\npm;D:\Softwares\eclipse-jee-neon-3-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,218 +60,57 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="logInTest" classname="com.inetbanking.testCases.TC_LoginTest_001" time="1.338"/>
-  <testcase name="logInDDTest" classname="com.inetbanking.testCases.TC_LoginDDTest_002" time="19.933">
-    <failure message="no such alert&#10;  (Session info: chrome=80.0.3987.149)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;PERUMAL-PC&apos;, ip: &apos;192.168.0.139&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55485}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 9c7d7d4e1dcc69ca693eb1fc25982061" type="org.openqa.selenium.NoAlertPresentException">org.openqa.selenium.NoAlertPresentException: no such alert
-  (Session info: chrome=80.0.3987.149)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'PERUMAL-PC', ip: '192.168.0.139', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55485}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9c7d7d4e1dcc69ca693eb1fc25982061
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)
-	at com.inetbanking.testCases.TC_LoginDDTest_002.logInDDTest(TC_LoginDDTest_002.java:33)
+  <testcase name="addInetBankCustomer" classname="com.inetbanking.testCases.TC_InetBankingAddCustomer_003" time="25.74">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.inetbanking.testCases.TC_InetBankingAddCustomer_003.addInetBankCustomer(TC_InetBankingAddCustomer_003.java:57)
 </failure>
-    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 31653
+    <system-out><![CDATA[ INFO [main] (TC_InetBankingAddCustomer_003.java:24)- Logged into gurudemo
+ INFO [main] (TC_InetBankingAddCustomer_003.java:31)- Customer Registration Page
+ INFO [main] (TC_InetBankingAddCustomer_003.java:46)- Submitted a new customer
+ INFO [main] (TC_InetBankingAddCustomer_003.java:54)- No customer added
+Taken screenshot
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 36446
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1585815501.374][WARNING]: Timed out connecting to Chrome, retrying...
-Apr 02, 2020 1:48:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1586617672.697][WARNING]: Timed out connecting to Chrome, retrying...
+Apr 11, 2020 8:37:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1585815504.432][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815504.536][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815504.637][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815504.804][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815504.907][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815505.009][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815505.112][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815505.214][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815505.317][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815505.419][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815505.520][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815505.622][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815505.723][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815505.825][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815505.926][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815506.027][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815506.129][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815506.232][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815506.334][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815506.436][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815506.540][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815506.641][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815506.743][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815506.845][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815506.947][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815507.048][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815507.149][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815507.252][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815507.355][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815507.456][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815507.559][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815507.661][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815507.763][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815507.866][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815507.970][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815508.073][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815508.176][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815508.278][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815508.381][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815508.483][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815508.584][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815508.763][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815508.865][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815508.968][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815509.070][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815509.171][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815509.273][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815509.375][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815509.477][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815509.579][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815509.680][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815509.781][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815509.882][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815509.983][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815510.084][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815510.185][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815510.286][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815510.387][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815510.488][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815510.589][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815510.690][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815510.791][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815510.892][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815510.993][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815511.094][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815511.195][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815511.379][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815511.480][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815511.580][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815511.681][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815511.784][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815511.986][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815512.087][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815512.266][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815512.368][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815512.546][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815512.647][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815512.868][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815513.079][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815513.180][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815513.281][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815513.384][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815513.486][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815513.623][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815520.681][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815520.783][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815520.886][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815520.988][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585815521.090][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617676.154][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617676.258][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617676.435][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617676.539][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617676.664][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617676.767][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617676.870][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617676.973][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617677.076][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617677.179][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617677.337][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617677.441][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617677.698][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617677.800][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617677.902][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617678.057][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617678.245][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617678.347][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617678.500][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617678.601][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617678.702][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617680.444][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617680.545][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617680.646][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617680.747][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617680.848][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617680.950][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617681.051][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617683.192][WARNING]: Timed out connecting to Chrome, retrying...
+[1586617689.080][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586617689.200][SEVERE]: Timed out receiving message from renderer: 0.100
 ]]></system-err>
   </testcase>
-  <testcase name="logInDDTest" classname="com.inetbanking.testCases.TC_LoginDDTest_002" time="5.02">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;uid&apos;]&quot;}&#10;  (Session info: chrome=80.0.3987.149)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;PERUMAL-PC&apos;, ip: &apos;192.168.0.139&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55485}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 9c7d7d4e1dcc69ca693eb1fc25982061&#10;*** Element info: {Using=name, value=uid}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='uid']"}
-  (Session info: chrome=80.0.3987.149)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'PERUMAL-PC', ip: '192.168.0.139', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55485}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9c7d7d4e1dcc69ca693eb1fc25982061
-*** Element info: {Using=name, value=uid}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-	at org.openqa.selenium.By$ByName.findElement(By.java:284)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
-	at com.inetbanking.pageObjects.InetBankLogin.setUserName(InetBankLogin.java:34)
-	at com.inetbanking.testCases.TC_LoginDDTest_002.logInDDTest(TC_LoginDDTest_002.java:20)
-</failure>
-  </testcase>
-  <testcase name="logInDDTest" classname="com.inetbanking.testCases.TC_LoginDDTest_002" time="5.028">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;uid&apos;]&quot;}&#10;  (Session info: chrome=80.0.3987.149)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;PERUMAL-PC&apos;, ip: &apos;192.168.0.139&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55485}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 9c7d7d4e1dcc69ca693eb1fc25982061&#10;*** Element info: {Using=name, value=uid}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='uid']"}
-  (Session info: chrome=80.0.3987.149)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'PERUMAL-PC', ip: '192.168.0.139', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55485}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9c7d7d4e1dcc69ca693eb1fc25982061
-*** Element info: {Using=name, value=uid}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-	at org.openqa.selenium.By$ByName.findElement(By.java:284)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
-	at com.inetbanking.pageObjects.InetBankLogin.setUserName(InetBankLogin.java:34)
-	at com.inetbanking.testCases.TC_LoginDDTest_002.logInDDTest(TC_LoginDDTest_002.java:20)
-</failure>
-  </testcase>
-  <testcase name="logInDDTest" classname="com.inetbanking.testCases.TC_LoginDDTest_002" time="5.026">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;uid&apos;]&quot;}&#10;  (Session info: chrome=80.0.3987.149)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;PERUMAL-PC&apos;, ip: &apos;192.168.0.139&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55485}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 9c7d7d4e1dcc69ca693eb1fc25982061&#10;*** Element info: {Using=name, value=uid}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='uid']"}
-  (Session info: chrome=80.0.3987.149)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'PERUMAL-PC', ip: '192.168.0.139', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\VENKAT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55485}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9c7d7d4e1dcc69ca693eb1fc25982061
-*** Element info: {Using=name, value=uid}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
-	at org.openqa.selenium.By$ByName.findElement(By.java:284)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
-	at com.inetbanking.pageObjects.InetBankLogin.setUserName(InetBankLogin.java:34)
-	at com.inetbanking.testCases.TC_LoginDDTest_002.logInDDTest(TC_LoginDDTest_002.java:20)
-</failure>
-  </testcase>
-  <testcase name="addInetBankCustomer" classname="com.inetbanking.testCases.TC_InetBankingAddCustomer_003" time="25.372"/>
 </testsuite>

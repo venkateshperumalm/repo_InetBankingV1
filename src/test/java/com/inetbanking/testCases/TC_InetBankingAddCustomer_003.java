@@ -6,18 +6,32 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.inetbanking.pageObjects.InetBankLogin;
+import com.inetbanking.pageObjects.InetBankLoginPO;
 import com.inetbanking.pageObjects.InetBankingAddCustomerPO;
 
 public class TC_InetBankingAddCustomer_003 extends BaseClass{
 
 	@Test
 	public void addInetBankCustomer() throws InterruptedException, IOException{
+		//ITestContext context
+		//String browserContext= context.getCurrentXmlTest().getParameter("browser");
 
-		InetBankLogin objLogin = new InetBankLogin(driver);
+		InetBankLoginPO objLogin = new InetBankLoginPO(driver);
 		objLogin.setUserName(userName);
 		objLogin.setPassword(password);
 		objLogin.clickSubmit();
+		Thread.sleep(8000);
+		
+		TC_LoginDDTest_002 alertObj = new TC_LoginDDTest_002();
+		boolean alert =  alertObj.isAlertPresent();
+		
+		if(alert){
+			driver.switchTo().alert().accept();
+			driver.switchTo().defaultContent();
+			Assert.assertTrue(false);
+		}else{
+			Assert.assertTrue(true);
+			Thread.sleep(3000);
 
 		logger.info("Logged into gurudemo");
 		driver.manage().window().maximize();
@@ -43,7 +57,8 @@ public class TC_InetBankingAddCustomer_003 extends BaseClass{
 
 		logger.info("Submitted a new customer");
 		Thread.sleep(8000);
-		
+		}
+
 		boolean resultCust = driver.getPageSource().contains("Customer Registered Successfully!!!");
 		if(resultCust == true){
 			Assert.assertTrue(true);

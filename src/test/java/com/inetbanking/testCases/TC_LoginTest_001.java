@@ -4,12 +4,12 @@ import java.io.IOException;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import com.inetbanking.pageObjects.InetBankLogin;
+import com.inetbanking.pageObjects.InetBankLoginPO;
 
 public class TC_LoginTest_001 extends BaseClass {
 	@Test
 	public void logInTest() throws IOException{
-		InetBankLogin objLogin = new InetBankLogin(driver);
+		InetBankLoginPO objLogin = new InetBankLoginPO(driver);
 		objLogin.setUserName(userName);
 		objLogin.setPassword(password);
 		logger.info("Username and password is given");

@@ -4,17 +4,18 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-public class InetBankLogin {
+public class InetBankLoginPO {
 
 	WebDriver driver;
-	public InetBankLogin(WebDriver ldriver){
+	public InetBankLoginPO(WebDriver ldriver){
 		driver = ldriver;
 		PageFactory.initElements(ldriver, this);
 	}
 
-	@FindBy(name="uid")
+	@FindBy(how=How.NAME, using="uid")
 	@CacheLookup
 	WebElement txtUser;
 
